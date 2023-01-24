@@ -12,13 +12,12 @@ export default function Projects() {
             Some of my past work
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Developing/contributing to these projects has taught me alot. I'm proud of what I've achieved and thankful for all the people I've met along my journey.
+            Developing these projects has taught me alot. I'm proud of what I've achieved and thankful for all the people I've met along my journey.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
-              href={project.link}
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">

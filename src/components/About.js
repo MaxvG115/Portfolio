@@ -22,17 +22,17 @@ export default function About() {
             <a
               href="https://github.com/MaxvG115"
               className="inline-flex w-10 py-2 mx-4 max-w-xs hover:scale-110 transition duration-300 ease-in-out">
-              <img src="./github-mark.svg"></img>
+              <img alt="github" src="./github-mark.svg"></img>
             </a>
             <a
               href="https://linkedin.com/in/maximiliano-villegas-garcía/"
               className="inline-flex w-10 py-2 mx-4 max-w-xs hover:scale-110 transition duration-300 ease-in-out">
-              <img src="./In-Blue-34@2x.png"></img>
+              <img alt="linkedin" src="./In-Blue-34@2x.png"></img>
             </a>
             <a
               href="https://medium.com/@Max115"
               className="inline-flex w-10 py-2 mx-4 h-12 max-w-xs hover:scale-110 transition duration-300 ease-in-out">
-              <img src="./Medium_Symbol_NoPadding.svg"></img>
+              <img alt="medium" src="./Medium_Symbol_NoPadding.svg"></img>
             </a>
           </div>
         </div>

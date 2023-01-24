@@ -17,7 +17,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
+            <button
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -36,7 +36,7 @@ export default function Projects() {
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
               </div>
-            </a>
+            </button>
           ))}
         </div>
       </div>

@@ -9,10 +9,10 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-14">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Some of my past work
+            Some of my more recent work
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Developing these projects has taught me alot. I'm proud of what I've achieved and thankful for all the people I've met along my journey.
+          <p className="lg:w-3/4 mx-auto leading-relaxed text-xl">
+            Developing these and other projects has taught me alot. I'm proud of what I've achieved and grateful for all the people I've met along my journey.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

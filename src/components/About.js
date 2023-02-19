@@ -5,11 +5,11 @@ export default function About() {
     <section id="about">
       <div className="container mx-auto flex py-8">
         <div className="flex flex-grow flex-col items-center text-center">
-          <div className="w-44 pb-8">
+          <div className="w-64 pb-8">
             <img
             className="rounded-full"
             alt="hero"
-            src="./port1.jpg"
+            src="./pf3.jpg"
             />
           </div>
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-slate">

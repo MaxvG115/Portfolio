@@ -7,17 +7,18 @@ export const projects = [
       image: "./BAMX.gif",
     },
     {
+    title: "Micropost sample app",
+    subtitle: "Ruby on Rails | PostgreSQL | AWS",
+    description:
+      "In short, this works like a “twitter clone” or any other micropost system. With this project I've began to grasp a better understanding of web development, everything from good practices to the more technical aspects. This is the first web app I'm working on from top to bottom and I'll make the most out of it.",
+    image: "https://i.gifer.com/origin/82/82a1ed531e333926a8ca2a00c277e0d1.gif",
+    },
+    /*
+    {
       title: "CRUD app for ITESM MCY program",
       subtitle: "Ruby on Rails",
       description:
         "Together with a fellow student, I was asked to make a simple CRUD web app to manage data from the masters in cybersecurity program (MCY). Using the rails scaffold tool and some bootstrap we were able to get it up and running. I was in charge of the project, but received substantial help with the database structuring.",
-      image: "./testgif.gif",
-    },
-    {
-      title: "Micropost sample app",
-      subtitle: "Ruby on Rails",
-      description:
-        "In short, this works like a “twitter clone” or any other micropost system, but it was very useful. With this project I got to grasp an understanding of the basis of web development, everything from best practices to the more technical aspects. This is the first web app I worked on top to bottom.",
       image: "./testgif.gif",
     },
     {
@@ -27,6 +28,7 @@ export const projects = [
         "My first collaborative web project. The client asked for a web application that could display job offers and let the users apply for these jobs, the specifications resulted in something similar to other job search engines like Indeed. My role in this project was designing and developing the frontend.",
       image: "./testgif.gif",
     },
+     */
 
   ];
 

@@ -12,7 +12,7 @@ export default function Projects() {
             Some of my more recent work
           </h1>
           <p className="lg:w-3/4 mx-auto leading-relaxed text-xl">
-            Developing these and other projects has taught me alot. I'm proud of what I've achieved and grateful for all the people I've met along my journey.
+            Developing these and other projects has taught me a lot. I'm proud of what I've achieved and grateful for the chance to meet tons of wonderful people along my journey.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

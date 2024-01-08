@@ -7,11 +7,11 @@ export const projects = [
       image: "./BAMX.gif",
     },
     {
-    title: "Micropost sample app",
-    subtitle: "Ruby on Rails | PostgreSQL | AWS",
+    title: "IBM Dashboard",
+    subtitle: "Python | Django | Flask | MongoDB",
     description:
-      "In short, this works like a “twitter clone” or any other micropost system. With this project I've began to grasp a better understanding of web development as a whole, everything from good practices to the more technical aspects. This is the first web app I'm working on from top to bottom and I'll make the most out of it.",
-    image: "https://i.gifer.com/origin/82/82a1ed531e333926a8ca2a00c277e0d1.gif",
+      "Developed a dashboard to facilitate one of IBM's goals, involving a dynamic blend of web development and data analysis. Successfully concluded the project by deploying a Docker container on an AWS instance and delivering the final pitch to the company. I was mainly involved on the backend side of the project, but also helped with some styling and components.",
+    image: "./IBM Dashboard.gif",
     },
     /*
     {
@@ -34,9 +34,11 @@ export const projects = [
 
   export const skills = [
     "HTML, CSS, TailwindCSS",
-    "Ruby/Rails",
+    "Ruby | Rails",
     "JavaScript",
     "Node",
     "React",
-    "Python",
+    "Python | Flask | Django",
+    "MongoDB",
+    "SQL"
   ];

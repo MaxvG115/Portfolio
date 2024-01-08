@@ -16,7 +16,7 @@ export default function About() {
             Hi, I'm Max : )
           </h1>
           <h2 className="title-font sm:text-2xl mb-4 font-medium text-slate">
-            Current Software Engineering student
+            Current Computer Science student
           </h2>
           <div>
             <a

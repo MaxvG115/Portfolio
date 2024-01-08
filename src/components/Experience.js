@@ -1,7 +1,6 @@
 import React from "react";
 import { BriefcaseIcon } from "@heroicons/react/20/solid";
 import { experience } from "../data";
-import { projects } from "../data";
 
 export default function Experience() {
   return (
@@ -16,7 +15,7 @@ export default function Experience() {
             These places made me grow not only as a professional, but as a person too.
           </p>
         </div>
-        {experience.map((project) => (
+        {experience.map((experience) => (
           <div className="flex text-justify">
           <div className="column">
             <h1 className="text-4xl text-green-400">

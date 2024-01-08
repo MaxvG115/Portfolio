@@ -32,6 +32,16 @@ export const projects = [
 
   ];
 
+  export const experience = [
+    {
+      title: "Software Engineer",
+      subtitle: "Softtek",
+      description:
+        "Led the development of a sophisticated command line application using LLMs (Language Model Models) in Python. Managed a diverse project with adaptability and problem-solving skills, collaborating in an Agile environment. Ensured robust code through rigorous testing, participated in code reviews, and contributed to ongoing learning. Proactively refactored the codebase for enhanced efficiency and maintainability.",
+      image: "https://seeklogo.com/images/S/Softtek-logo-E814D93EA8-seeklogo.com.png",
+    }
+  ]
+
   export const skills = [
     "HTML, CSS, TailwindCSS",
     "Ruby | Rails",

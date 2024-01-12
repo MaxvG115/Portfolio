@@ -16,17 +16,19 @@ export default function Experience() {
           </p>
         </div>
         {experience.map((exp, index) => (
-          <div key={index} className="flex flex-col text-justify mb-8">
+          <div key={index} className="flex flex-col text-center mb-8">
             <div className="mb-4">
-              <a href="https://www.softtek.com/">
-                <img className="h-26 w-36 mb-2 object-cover" alt={exp.subtitle} src={exp.image}/>
-              </a>
+                <img className="h-26 w-36 mx-auto my-2" alt={exp.subtitle} src={exp.image}>
+                </img>
               <h1 className="text-4xl text-green-400">{exp.title}</h1>
               <p className="text-md text-blue-200 mt-2">
                 {`Start: ${exp.startDate} | End: ${exp.endDate}`}
               </p>
             </div>
-            <p className="text-xl text-white">{exp.description}</p>
+            {/* Wrap the description text in a div with margin classes */}
+            <div className="lg:w-3/4 mx-auto lg:pl-4 lg:pr-4 sm:pl-2 sm:pr-2">
+              <p className="text-xl text-white">{exp.description}</p>
+            </div>
           </div>
         ))}
       </div>

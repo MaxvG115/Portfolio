@@ -36,9 +36,11 @@ export const projects = [
     {
       title: "Software Engineer",
       subtitle: "Softtek",
+      startDate: "Aug 2023",
+      endDate: "Dec 2023",
       description:
         "Led the development of a sophisticated command line application using LLMs (Language Model Models) in Python. Managed a diverse project with adaptability and problem-solving skills, collaborating in an Agile environment. Ensured robust code through rigorous testing, participated in code reviews, and contributed to ongoing learning. Proactively refactored the codebase for enhanced efficiency and maintainability.",
-      image: "https://seeklogo.com/images/S/Softtek-logo-E814D93EA8-seeklogo.com.png",
+      image: "https://blog.softtek.com/hubfs/Softtek/images/assets/Logos-Website-2020-02.png",
     }
   ]
 

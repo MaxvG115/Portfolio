@@ -34,15 +34,20 @@ export const projects = [
 
   export const experience = [
     {
-      title: "Software Engineer",
+      title: "Jr. Software Engineer",
       subtitle: "Softtek",
-      startDate: "Aug 2023",
-      endDate: "Dec 2023",
+      startDate: "July 2023",
+      endDate: "February 2024",
       description:
         "Led the development of a sophisticated command line application using LLMs (Language Model Models) in Python. Managed a diverse project with adaptability and problem-solving skills, collaborating in an Agile environment. Ensured robust code through rigorous testing, participated in code reviews, and contributed to ongoing learning. Proactively refactored the codebase for enhanced efficiency and maintainability.",
       image: "https://blog.softtek.com/hubfs/Softtek/images/assets/Logos-Website-2020-02.png",
     }
   ]
+
+  export const designs = {
+    title: "Food Bank Mobile App",
+    image: "https://www.figma.com/design/RJAHb8dLIh2kMdwQCZAjcl/Final?node-id=0-1&t=nnMZcMPRER2FrOkJ-1",
+  }
 
   export const skills = [
     "HTML, CSS, TailwindCSS",

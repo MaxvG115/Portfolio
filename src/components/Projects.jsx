@@ -8,18 +8,18 @@ export default function Projects() {
       <div className="container py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-14">
           <CodeBracketIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 style={{fontFamily: 'Bebas Neue'}} className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Some of my more recent projects
           </h1>
-          <p className="lg:w-3/4 mx-auto leading-relaxed text-xl">
+          <p style={{fontFamily: 'Montserrat'}} className="font-semibold mx-auto leading-relaxed text-2xl">
             Developing these and other projects has taught me a lot. I'm proud of what I've achieved and grateful for the chance to meet tons of wonderful people along my journey.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div style={{fontFamily: 'Montserrat'}} className="font-normal text-lg flex flex-wrap -m-4">
           {projects.map((project) => (
             <button
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="w-1/2 p-7">
               <div className="flex relative">
                 <img
                   alt="gallery"

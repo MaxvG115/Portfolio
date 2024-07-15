@@ -1,3 +1,3 @@
 # Portfolio website developed with react
 
-https://maxvg.tech/
+https://maxvg.me/

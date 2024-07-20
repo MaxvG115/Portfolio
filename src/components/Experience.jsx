@@ -12,7 +12,7 @@ export default function Experience() {
           <h1 style={{fontFamily: 'Bebas Neue'}} className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Work Experience
           </h1>
-          <p style={{fontFamily: 'Montserrat'}} className="font-semibold mx-auto leading-relaxed text-2xl">
+          <p style={{fontFamily: 'Montserrat'}} className="font-semibold mx-auto leading-relaxed text-xl">
             These places made me grow not only as a professional but as a person too.
           </p>
         </div>

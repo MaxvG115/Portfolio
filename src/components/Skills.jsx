@@ -12,7 +12,7 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <div style={{fontFamily: "Montserrat"}}>
-            <p className="text-2xl font-semibold leading-relaxed mx-auto">
+            <p className="text-xl font-semibold leading-relaxed mx-auto">
                 Here are the skills and technologies I'm most comfortable with at the moment.   
             </p> 
             <p className="italic">

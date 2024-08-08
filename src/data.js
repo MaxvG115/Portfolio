@@ -1,5 +1,14 @@
 export const projects = [
     {
+      title: "Mood",
+      subtitle: "NextJS",
+      description:
+        "Simple journal application that uses Google Gemini's API to recognize your mood by analizing the content of your journal entries.",
+      image: "./mood1.png",
+      url: "https://mood-wine-mu.vercel.app/"
+      },
+    /*
+    {
       title: "IOS app for Gudalajara's Food Bank",
       subtitle: "Swift | Firebase | Stripe",
       description:
@@ -13,7 +22,6 @@ export const projects = [
       "Developed a dashboard to facilitate one of IBM's goals, involving a dynamic blend of web development and data analysis. Successfully concluded the project by deploying a Docker container on an AWS instance and delivering the final pitch to the company. I was mainly involved on the backend side of the project, but also helped with some styling and components.",
     image: "./IBM Dashboard.gif",
     },
-    /*
     {
       title: "CRUD app for ITESM MCY program",
       subtitle: "Ruby on Rails",
@@ -51,10 +59,10 @@ export const projects = [
 
   export const skills = [
     "HTML, CSS, TailwindCSS",
-    "Ruby | Rails",
-    "JavaScript",
-    "Node",
     "React",
+    "JavaScript",
+    "NextJS",
+    "Ruby | Rails",
     "Python | Flask | Django",
     "MongoDB",
     "SQL"

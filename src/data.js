@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "NextJS",
       description:
         "Simple journal application that uses Google Gemini's API to recognize your mood by analizing the content of your journal entries.",
-      image: "./mood1.png",
+      image: "./mood.png",
       url: "https://mood-wine-mu.vercel.app/"
       },
     /*
